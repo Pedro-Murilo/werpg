@@ -1,12 +1,14 @@
+import { HeaderExperience, CurrentExperience, ContainerExperience } from './ExperienceBarStyle';
+
 export function ExperienceBar() {
     return (
-        <header className="experience-bar">
+        <HeaderExperience>
             <span>0 xp</span>
-            <div>
+            <ContainerExperience>
                 <div style={{ width: '50%' }} />
-                <span className="current-experience" style={{ left: '50%' }}>300 xp</span>
-            </div>
+                <CurrentExperience style={{ left: '50%' }}>300 xp</CurrentExperience>
+            </ContainerExperience>
             <span>600 xp</span>
-        </header>
+        </HeaderExperience>
     )
 }

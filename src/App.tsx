@@ -1,11 +1,14 @@
-import { ExperienceBar } from './components/ExperienceBar';
-import './styles/global.css';
+import { ExperienceBar } from "./components/ExperienceBar";
+import GlobalStyle, { Container } from "./styles/GlobalStyles";
 
 function App() {
   return (
-    <div className="container">
-      <ExperienceBar />
-    </div>
+    <>
+      <Container>
+        <ExperienceBar />
+      </Container>
+      <GlobalStyle />
+    </>
   );
 }
 
