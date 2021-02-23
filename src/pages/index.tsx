@@ -1,3 +1,4 @@
+import CompletedChallenges from "../components/CompletedChallenges";
 import { ExperienceBar } from "../components/ExperienceBar";
 import Profile from "../components/Profile";
 import { Container } from "../styles/GlobalStyles";
@@ -12,6 +13,7 @@ export default function Home() {
         <SectionContainer>
           <div>
             <Profile />
+            <CompletedChallenges />
           </div>
             <div>
 
