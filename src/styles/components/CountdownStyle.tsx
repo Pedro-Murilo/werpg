@@ -10,6 +10,7 @@ export const CountdownContainer = styled.div`
     div {
         flex: 1;
         display: flex;
+        width: 20rem;
         align-items:center;
         justify-content: space-evenly;
         background: var(--black-light);
@@ -20,7 +21,6 @@ export const CountdownContainer = styled.div`
 
         span {
             flex: 1;
-            padding: 0 0.5rem;
         }
 
         span:first-child {
