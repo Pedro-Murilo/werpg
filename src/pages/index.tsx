@@ -1,4 +1,6 @@
+import Head  from "next/head";
 import CompletedChallenges from "../components/CompletedChallenges";
+import Countdown from "../components/Countdown";
 import { ExperienceBar } from "../components/ExperienceBar";
 import Profile from "../components/Profile";
 import { Container } from "../styles/GlobalStyles";
@@ -7,13 +9,17 @@ import { SectionContainer } from "../styles/pages/HomeStyle";
 export default function Home() {
   return (
     <>
-      <Container>  
+      <Container>
+        <Head>
+          <title>Home | WeRPG</title>
+        </Head>  
         <ExperienceBar />
 
         <SectionContainer>
           <div>
             <Profile />
             <CompletedChallenges />
+            <Countdown />
           </div>
             <div>
 
