@@ -13,7 +13,7 @@ const GlobalStyle = createGlobalStyle`
   --gray-line: #dcdde0;
   --text: #fefaf9;
   --text-highlight: #b3b9ff;
-  --title: #2e384d;
+  --title: #a09f9f;
   --red: #e83f5b;
   --green: #4cd62b;
   --blue: #5965e0;

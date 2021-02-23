@@ -1,4 +1,4 @@
-import { HeaderExperience, CurrentExperience, ContainerExperience } from './ExperienceBarStyle';
+import { HeaderExperience, CurrentExperience, ContainerExperience } from '../styles/components/ExperienceBarStyle';
 
 export function ExperienceBar() {
     return (
