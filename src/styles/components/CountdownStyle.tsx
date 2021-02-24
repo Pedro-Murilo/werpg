@@ -55,7 +55,7 @@ export const CountdownButton = styled.button`
 
     &:disabled {
         background: var(--white);
-        color: var(--green);
+        color: var(--blue-dark);
         cursor: not-allowed;
     }
 `
@@ -70,7 +70,7 @@ export const AbandonCycleButton = styled.button`
     border: 0;
     border-radius: 0.5rem;
     background: var(--white);
-    color: var(--title);
+    color: var(--blue-dark);
     font-size: 2.4rem;
     font-weight: 600;
     transition: background-color 200ms;

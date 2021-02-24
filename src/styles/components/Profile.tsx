@@ -12,7 +12,6 @@ export const ProfileContainer = styled.div`
 
     div {
         margin-left: 2.4rem;
-        width: 15rem;
 
         strong {
             font-size: 2.4rem;
