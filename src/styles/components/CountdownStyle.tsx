@@ -49,7 +49,34 @@ export const CountdownButton = styled.button`
     font-weight: 600;
     transition: background-color 200ms;
 
-    &:hover {
+    &:not(:disabled):hover {
         background: var(--blue-dark);
+    }
+
+    &:disabled {
+        background: var(--white);
+        color: var(--green);
+        cursor: not-allowed;
+    }
+`
+
+export const AbandonCycleButton = styled.button`
+    width: 100%;
+    height: 6.5rem;
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    border-radius: 0.5rem;
+    background: var(--white);
+    color: var(--title);
+    font-size: 2.4rem;
+    font-weight: 600;
+    transition: background-color 200ms;
+
+    &:not(:disabled):hover {
+        background: var(--red);
+        color: var(--white)
     }
 `
