@@ -56,7 +56,8 @@ export function ChallengesProvider({ children }: ChallengesProviderProps) {
 
     if(Notification.permission === 'granted') {
       new Notification('You have a new challenge!', {
-        body: `Valendo ${challenge.amount} xp!`
+        body: `Earn ${challenge.amount} xp!`,
+        icon: 'favicon.png'
       });
     }
 }
