@@ -5,8 +5,8 @@ import { ChallengesProvider} from '../context/ChallengesContext';
 function MyApp({ Component, pageProps }) {
   return (
     <ChallengesProvider>
-      <GlobalStyle />
-      <Component {...pageProps} />
+        <GlobalStyle />
+        <Component {...pageProps} />
     </ChallengesProvider>
     )
 }
