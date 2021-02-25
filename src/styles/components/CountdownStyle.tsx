@@ -14,7 +14,7 @@ export const CountdownContainer = styled.div`
         align-items:center;
         justify-content: space-evenly;
         background: var(--black-light);
-        box-shadow: 0 0 6.8rem rgba(0, 0, 0, 0.05);
+        box-shadow: 0 0 1.8rem rgba(0, 0, 0, 0.4);
         font-size: 15.5rem;
         border-radius: 0.5rem;
         text-align: center;
@@ -43,6 +43,7 @@ export const CountdownButton = styled.button`
     justify-content: center;
     border: 0;
     border-radius: 0.5rem;
+    box-shadow: 0 0 1.8rem rgba(0, 0, 0, 0.4);
     background: var(--blue);
     color: var(--white);
     font-size: 2.4rem;
@@ -69,6 +70,7 @@ export const AbandonCycleButton = styled.button`
     justify-content: center;
     border: 0;
     border-radius: 0.5rem;
+    box-shadow: 0 0 1.8rem rgba(0, 0, 0, 0.4);
     background: var(--white);
     color: var(--blue-dark);
     font-size: 2.4rem;

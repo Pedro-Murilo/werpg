@@ -4,7 +4,7 @@ export const ChallengeBoxContainer = styled.div`
     height: 100%;
     background: var(--black-dark);
     border-radius: 0.5rem;
-    box-shadow: 0 0 6.8rem rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 1.8rem rgba(0, 0, 0, 0.4);
     padding: 1.5rem 2rem;
     color: var(--gray-line);
 

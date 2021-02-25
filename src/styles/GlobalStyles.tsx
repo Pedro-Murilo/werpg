@@ -18,6 +18,7 @@ const GlobalStyle = createGlobalStyle`
   --title: #a09f9f;
   --red: #e83f5b;
   --green: #4cd62b;
+  --green-light: #3ad5a3;
   --blue: #5965e0;
   --blue-dark: #4953b8;
   --blue-twitter: #2aa9e0;
