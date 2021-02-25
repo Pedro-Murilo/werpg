@@ -55,7 +55,7 @@ export function ChallengesProvider({ children }: ChallengesProviderProps) {
     new Audio('/notification.mp3').play();
 
     if(Notification.permission === 'granted') {
-      new Notification('New Challenge 🎊', {
+      new Notification('You have a new challenge!', {
         body: `Valendo ${challenge.amount} xp!`
       });
     }
