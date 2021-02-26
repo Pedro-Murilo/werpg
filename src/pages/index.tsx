@@ -19,6 +19,8 @@ import {
 } from "../styles/pages/HomeStyle";
 import { ChallengesProvider } from "../context/ChallengesContext";
 import Loading from "../components/Loading";
+import { motion } from "framer-motion";
+import { animationOne } from "../animations";
 
 interface HomeProps {
   level: number;
@@ -41,36 +43,43 @@ export default function Exercises(props: HomeProps) {
       {loading ? (
         <Loading animationData={animationData} />
       ) : (
-        <ChallengesProvider
-          level={props.level}
-          currentExperience={props.currentExperience}
-          challengesCompleted={props.challengesCompleted}
+        <motion.div
+          initial="out"
+          animate="in"
+          exit="out"
+          variants={animationOne}
         >
-          <Container>
-            <Head>
-              <title>Exercises | WeRPG</title>
-            </Head>
+          <ChallengesProvider
+            level={props.level}
+            currentExperience={props.currentExperience}
+            challengesCompleted={props.challengesCompleted}
+          >
+            <Container>
+              <Head>
+                <title>Exercises | WeRPG</title>
+              </Head>
 
-            <ExperienceBar />
-            <ContainerMissionsLink>
-              <Link href="/missions">
-                <MissionLink>Missions</MissionLink>
-              </Link>
-            </ContainerMissionsLink>
-            <CountdownProvider>
-              <SectionContainer>
-                <div>
-                  <Profile />
-                  <CompletedChallenges />
-                  <Countdown />
-                </div>
-                <div>
-                  <ChallengeBox />
-                </div>
-              </SectionContainer>
-            </CountdownProvider>
-          </Container>
-        </ChallengesProvider>
+              <ExperienceBar />
+              <ContainerMissionsLink>
+                <Link href="/missions">
+                  <MissionLink>Missions</MissionLink>
+                </Link>
+              </ContainerMissionsLink>
+              <CountdownProvider>
+                <SectionContainer>
+                  <div>
+                    <Profile />
+                    <CompletedChallenges />
+                    <Countdown />
+                  </div>
+                  <div>
+                    <ChallengeBox />
+                  </div>
+                </SectionContainer>
+              </CountdownProvider>
+            </Container>
+          </ChallengesProvider>
+        </motion.div>
       )}
     </>
   );
