@@ -1,14 +1,12 @@
-import GlobalStyle from '../styles/GlobalStyles';
-
-import { ChallengesProvider} from '../context/ChallengesContext';
+import GlobalStyle from "../styles/GlobalStyles";
 
 function MyApp({ Component, pageProps }) {
   return (
-    <ChallengesProvider>
-        <GlobalStyle />
-        <Component {...pageProps} />
-    </ChallengesProvider>
-    )
+    <>
+      <GlobalStyle />
+      <Component {...pageProps} />
+    </>
+  );
 }
 
-export default MyApp
+export default MyApp;
