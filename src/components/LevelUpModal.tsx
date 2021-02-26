@@ -1,6 +1,8 @@
 import { useContext } from 'react';
 import { ChallengesContext } from '../context/ChallengesContext';
 import { Overlay, ContainerModal, HeaderModal, ButtonModal } from '../styles/components/LevelUpModalStyles';
+import LevelUpAnimation from './LevelUpAnimation';
+import animationData from '../lottie/confetti.json';
 
 function LevelUpModal() {
 
@@ -10,6 +12,7 @@ function LevelUpModal() {
         <Overlay>
             <ContainerModal>
                 <HeaderModal>{level}</HeaderModal>
+                <LevelUpAnimation animationData={animationData} />
                 <strong>Congratulations!</strong>
                 <p>Level up!</p>
 
