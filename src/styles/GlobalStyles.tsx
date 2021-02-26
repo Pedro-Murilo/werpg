@@ -9,9 +9,9 @@ const GlobalStyle = createGlobalStyle`
 
 :root {
   --white: #fff;
-  --black-light: #333;
-  --black-dark: #222;
-  --background: #252525;
+  --black-light: #444;
+  --black-dark: #333;
+  --background:#2D2D2D;
   --gray-line: #dcdde0;
   --text: #fefaf9;
   --text-highlight: #b3b9ff;
@@ -57,6 +57,10 @@ export const Container = styled.div`
   padding: 2.5rem 2rem;
   display: flex;
   flex-direction: column;
+`
+
+export const LoadingContainer = styled.div`
+  padding-top: 16.5rem;
 `
 
 export default GlobalStyle;
