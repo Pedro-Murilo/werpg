@@ -1,13 +1,14 @@
 export const animationOne = {
     in: {
         scale: 1,
-        opacity: 1
+        opacity: 1,
     },
     out: {
         scale: 0.8,
-        opacity: 0
+        opacity: 0,
     }
 };
+
 
 export const animationTwo = {
     in: {
