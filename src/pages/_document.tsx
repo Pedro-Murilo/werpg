@@ -12,6 +12,7 @@ export default class MyDocument extends Document {
               rel="stylesheet"
             />
             <meta charSet="UTF-8" />
+            <title>WeRPG</title>
           </Head>
             <body>
                 <Main />

@@ -41,7 +41,12 @@ export default function Exercises(props: HomeProps) {
   return (
     <>
       {loading ? (
+        <>
         <Loading animationData={animationData} />
+        <Head>
+          <title>WeRPG</title>
+        </Head>
+        </>
       ) : (
         <motion.div
           initial="out"
