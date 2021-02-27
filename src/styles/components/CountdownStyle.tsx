@@ -46,6 +46,7 @@ export const CountdownContainer = styled.div`
 
         div {
             width: 100%;
+            font-size: 12.5rem;
         }
 
         > span {

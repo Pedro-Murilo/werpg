@@ -12,11 +12,7 @@ import { ExperienceBar } from "../components/ExperienceBar";
 import Profile from "../components/Profile";
 import CountdownProvider from "../context/CountdownContext";
 import { Container } from "../styles/GlobalStyles";
-import {
-  SectionContainer,
-  ContainerMissionsLink,
-  MissionLink,
-} from "../styles/pages/HomeStyle";
+import { SectionContainer } from "../styles/pages/HomeStyle";
 import { ChallengesProvider } from "../context/ChallengesContext";
 import Loading from "../components/Loading";
 import { motion } from "framer-motion";
@@ -42,10 +38,10 @@ export default function Exercises(props: HomeProps) {
     <>
       {loading ? (
         <>
-        <Loading animationData={animationData} />
-        <Head>
-          <title>WeRPG</title>
-        </Head>
+          <Loading animationData={animationData} />
+          <Head>
+            <title>WeRPG</title>
+          </Head>
         </>
       ) : (
         <motion.div
@@ -65,11 +61,6 @@ export default function Exercises(props: HomeProps) {
               </Head>
 
               <ExperienceBar />
-              <ContainerMissionsLink>
-                <Link href="/missions">
-                  <MissionLink>Missions</MissionLink>
-                </Link>
-              </ContainerMissionsLink>
               <CountdownProvider>
                 <SectionContainer>
                   <div>

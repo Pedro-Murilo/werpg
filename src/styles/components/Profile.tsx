@@ -31,7 +31,7 @@ export const ProfileContainer = styled.div`
         }
     }
 
-    @media screen and (max-width: 471px) {
-        margin-top: 15px;
+    @media screen and (max-width: 901px) {
+        margin-top: 4rem;
     }
 `

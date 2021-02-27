@@ -37,7 +37,7 @@ export const ContainerModal = styled.div`
 
     @media screen and (max-width: 471px) {
         width: 85%;
-        height: 40%;
+        height: 50%;
         margin: 3rem auto;
     }
 `
