@@ -19,6 +19,10 @@ export const ChallengeBoxContainer = styled.div`
         width: 85%;
         margin: 0 auto;
     }
+
+    @media screen and (max-width: 901px) {
+       margin: 0 auto 15rem auto;
+    }
 `
 
 export const ChallengeNotActive = styled(motion.div)`
@@ -98,16 +102,6 @@ export const ChallengeActive = styled(motion.div)`
             &:hover {
                 filter: brightness(0.9);
             }
-        }
-    }
-
-    @media screen and (max-width: 901px) {
-        button {
-            margin-top: 1.5rem;
-        }
-
-        main {
-            margin-top: 1.5rem;
         }
     }
     
