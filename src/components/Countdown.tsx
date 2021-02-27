@@ -17,7 +17,6 @@ function Countdown() {
 
   const [secondLeft, secondRight] = String(seconds).padStart(2, '0').split('');
 
-
   return (
     <div>
       <CountdownContainer>

@@ -11,6 +11,7 @@ export const Overlay = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    
 `
 
 export const ContainerModal = styled.div`
@@ -32,6 +33,12 @@ export const ContainerModal = styled.div`
         font-size: 2.4rem;
         color: var(--text);
         margin-top: 3.5rem;
+    }
+
+    @media screen and (max-width: 471px) {
+        width: 85%;
+        height: 40%;
+        margin: 3rem auto;
     }
 `
 
