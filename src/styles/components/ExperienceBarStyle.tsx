@@ -13,6 +13,7 @@ export const CurrentExperience = styled.span`
     position: absolute;
     top: 1.2rem;
     transform: translateX(-50%);
+    transition: 1.5s ease-in-out;
 `
 
 export const ContainerExperience = styled.div`
@@ -27,5 +28,6 @@ export const ContainerExperience = styled.div`
     height: 0.4rem;
     border-radius: 0.4rem;
     background: var(--green);
+    transition: 1.5s ease-in-out;
   }
 `

@@ -1,3 +1,4 @@
+import { motion } from 'framer-motion';
 import styled from 'styled-components';
 
 export const ChallengeBoxContainer = styled.div`
@@ -15,7 +16,7 @@ export const ChallengeBoxContainer = styled.div`
     text-align: center;
 `
 
-export const ChallengeNotActive = styled.div`
+export const ChallengeNotActive = styled(motion.div)`
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -40,7 +41,7 @@ export const ChallengeNotActive = styled.div`
     }
 `
 
-export const ChallengeActive = styled.div`
+export const ChallengeActive = styled(motion.div)`
     height: 100%;
     display: flex;
     flex-direction: column;
