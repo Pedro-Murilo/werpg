@@ -16,4 +16,10 @@ export const CompletedChallengesContainer = styled.div`
     span:last-child {
         font-size: 2.4rem;
     }
+
+    @media screen and (max-width: 471px) {
+        width: 70%;
+        margin: 3rem auto;
+    }
+    
 `

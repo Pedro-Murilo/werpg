@@ -1,4 +1,4 @@
-import { useState, useEffect, useContext } from "react";
+import { useContext } from "react";
 import { CountdownButton, CountdownContainer, AbandonCycleButton } from "../styles/components/CountdownStyle";
 import { CountdownContext } from '../context/CountdownContext';
 

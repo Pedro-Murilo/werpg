@@ -6,6 +6,13 @@ export const SectionContainer = styled.section`
     grid-template-columns: 1fr 1fr;
     gap: 10rem;
     align-content: center;
+
+    @media screen and (max-width: 901px) {
+        flex: 1;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
 `
 
 export const ContainerMissionsLink = styled.span`

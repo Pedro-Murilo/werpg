@@ -32,6 +32,27 @@ export const CountdownContainer = styled.div`
         font-size: 15.5rem;
         margin: 0 0.5rem;
     }
+
+    @media screen and (max-width: 471px) {
+        width: 85%;
+        height: 50%;
+        margin: 3rem auto;
+    }
+
+    @media screen and (max-width: 461px) {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 5rem;
+
+        div {
+            width: 100%;
+        }
+
+        > span {
+            display: none;
+        }
+    }
+    
 `
 
 export const CountdownButton = styled.button`
@@ -59,6 +80,11 @@ export const CountdownButton = styled.button`
         color: var(--blue-dark);
         cursor: not-allowed;
     }
+
+    @media screen and (max-width: 471px) {
+        width: 85%;
+        margin: 3rem auto;
+    }
 `
 
 export const AbandonCycleButton = styled.button`
@@ -80,5 +106,10 @@ export const AbandonCycleButton = styled.button`
     &:not(:disabled):hover {
         background: var(--red);
         color: var(--white)
+    }
+
+    @media screen and (max-width: 471px) {
+        width: 85%;
+        margin: 3rem auto;
     }
 `

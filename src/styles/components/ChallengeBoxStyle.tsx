@@ -14,6 +14,11 @@ export const ChallengeBoxContainer = styled.div`
     align-items:center;
     justify-content: center;
     text-align: center;
+
+    @media screen and (max-width: 471px) {
+        width: 85%;
+        margin: 0 auto;
+    }
 `
 
 export const ChallengeNotActive = styled(motion.div)`
@@ -95,6 +100,17 @@ export const ChallengeActive = styled(motion.div)`
             }
         }
     }
+
+    @media screen and (max-width: 901px) {
+        button {
+            margin-top: 1.5rem;
+        }
+
+        main {
+            margin-top: 1.5rem;
+        }
+    }
+    
 `
 
 export const FailedButton = styled.button`
