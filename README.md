@@ -81,7 +81,7 @@ cd werpg
 yarn
 
 ### Step 4
-werpg yarn dev and open port http://localhost:3000/ on browser
+yarn dev and open port http://localhost:3000/ on browser
 ```
 
 ---
@@ -102,7 +102,7 @@ This project is under MIT license. See the [LICENSE](https://github.com/Pedro-Mu
 
 ---
 ### 🔵 Credits
-Made with 💜 by me and [Rocketseat](https://github.com/rocketseat) 💙!
+Made with 💜 by me and [Rocketseat](https://github.com/rocketseat) ❤!
 
 
 
