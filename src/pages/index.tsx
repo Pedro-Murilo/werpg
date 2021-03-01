@@ -1,19 +1,20 @@
 import { useEffect, useState } from "react";
 import Head from "next/head";
-import Link from "next/link";
 import { GetServerSideProps } from "next";
 
-import animationData from "../lottie/rocket-loading.json";
+import animationData from "../lottie/loading-rocket.json";
 
 import ChallengeBox from "../components/ChallengeBox";
 import CompletedChallenges from "../components/CompletedChallenges";
 import Countdown from "../components/Countdown";
 import { ExperienceBar } from "../components/ExperienceBar";
 import Profile from "../components/Profile";
-import CountdownProvider from "../context/CountdownContext";
 import { Container } from "../styles/GlobalStyles";
 import { SectionContainer } from "../styles/pages/HomeStyle";
+
+import CountdownProvider from "../context/CountdownContext";
 import { ChallengesProvider } from "../context/ChallengesContext";
+
 import Loading from "../components/Loading";
 import { motion } from "framer-motion";
 import { animationOne } from "../animations";
