@@ -31,8 +31,12 @@
 </div>
 
 ---
-### ✨ Project is not yet finalized, but it is already deployed
+### ✨ Final Project
 > Vercel: https://werpg.vercel.app
+
+<p align="center">
+  <img src="https://github.com/Pedro-Murilo/werpg/blob/main/.github/werpg.gif" alt="Gif Final Project" />  
+</p>
 
 
 ---
