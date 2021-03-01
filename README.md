@@ -76,16 +76,18 @@ level up!
 ### in your terminal and in the folder you want, follow this steps:
 
 ### Step 1
-git clone git@github.com:Pedro-Murilo/werpg.git
+~ git clone git@github.com:Pedro-Murilo/werpg.git
 
 ### Step 2
-cd werpg
+~ cd werpg
 
 ### Step 3
-yarn
+~ yarn
 
 ### Step 4
-yarn dev and open port http://localhost:3000/ on browser
+~ yarn dev 
+
+### and open port http://localhost:3000/ on browser
 ```
 
 ---
