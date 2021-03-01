@@ -34,7 +34,9 @@
 ### ✨ Final Project
 > Vercel: https://werpg.vercel.app
 
-![Gif Final Project](https://github.com/Pedro-Murilo/werpg/blob/main/.github/werpg.gif)
+<p align="center">
+  <img src="https://github.com/Pedro-Murilo/werpg/blob/main/.github/werpg.gif" alt="Gif Final Project" />  
+</p>
 
 
 ---
